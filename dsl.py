@@ -1,3 +1,13 @@
+#Grammar present in intents
+#Production version (non opensource)
+#Token is telegram token. Need modify for others.
+
+
+
+
+
+
+
 import pickle
 import json
 import random
@@ -109,7 +119,7 @@ def ordemo9(ChriA):
 
  return ChriF
 
-ordemoA=NiswanobF('1174222095:AAFrJJiOqvJgYt853S8324yUpX8VqjHcJKQ',use_context=True)
+ordemoA=NiswanobF('TOKEN',use_context=True) #Modify token (tm API)
 ordemoA.bitboostdotcom13.ChriE(Niswanob10(Chri10.text,ChriB))
 ordemoA.Niswanob12()
 ordemoA.fuscat10()

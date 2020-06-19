@@ -1,0 +1,216 @@
+{
+        "intents": [
+                {
+                        "tag": "hemorrhage",
+                        "patterns": [
+                                "blood",
+                                "bleeding",
+                                "losing blood",
+                                "hemorrhage",
+                                "open wound",
+                                "cut"
+                        ],
+                        "responses": [
+                                "Elevate the injured part. Apply pressure until bleeding stops and bind the wound with a cloth or bandage. Immobilize the injured body part."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "fracture",
+                        "patterns": [
+                                "bone",
+                                "fracture",
+                                "broken bone",
+                                "broke",
+                                "crack",
+                                "break"
+                        ],
+                        "responses": [
+                                "Do not move the injured area, stop any bleeding with a clean cloth and apply ice packs to reduce swelling."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "burn",
+                        "patterns": [
+                                "burn",
+                                "fire",
+                                "burnt skin"
+                        ],
+                        "responses": [
+                                "Cover the burn with a cloth soaked in cold water and elevate the burned area."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "dislocated_joint",
+                        "patterns": [
+                                "joint",
+                                "dislocated",
+                                "dislocation",
+                                "luxation",
+                                "swelling",
+                                "swollen"
+                        ],
+                        "responses": [
+                                "Do not move the dislocated joint. Apply ice to reduce swelling. Use ibuprofen in case of unbearable pain."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "heart_attack",
+                        "patterns": [
+                                "heart",
+                                "beat",
+                                "heartbeat",
+                                "heart attack",
+                                "heart failure"
+                        ],
+                        "responses": [
+                                "Chew and swallow an aspirin, if not allergic. Loosen any tight clothing. Get into a position in which shoulders and head are supported. In case of an unresponsive patient, perform chest compressions (about 100 to 120 compressions a minute)."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "swallowed_poison",
+                        "patterns": [
+                                "chemicals",
+                                "vomiting",
+                                "swallow",
+                                "pills",
+                                "poison",
+                                "drink"
+                        ],
+                        "responses": [
+                                "Remove anything remaining in the mouth and rinse it thoroughly. Turn the head to the side to prevent choking in case of vomiting. Keep the product or the medicine container nearby."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "external_poison",
+                        "patterns": [
+                                "chemicals",
+                                "skin",
+                                "irritation",
+                                "eye",
+                                "stinging",
+                                "red",
+                                "itchy",
+                                "redness",
+                                "poison"
+                        ],
+                        "responses": [
+                                "Remove any contaminated piece of clothing and rinse immediately with cool water for 15 to 20 minutes."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "poison_inhalation",
+                        "patterns": [
+                                "inhaled",
+                                "gas",
+                                "toxic",
+                                "breathe",
+                                "poison",
+                                "chemicals",
+                                "inhalation",
+                                "breathed"
+                        ],
+                        "responses": [
+                                "Get to fresh air as soon as possible. Remove any tight clothes, especially around the neck. Warm yourself up if you feel chills."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "electrical_shock",
+                        "patterns": [
+                                "electrocuted",
+                                "electric shock",
+                                "electricity",
+                                "outlet",
+                                "cable",
+                                "electrocution",
+                                "device",
+                                "electronic device",
+                                "plug"
+                        ],
+                        "responses": [
+                                "Turn off, unplug or move away the source with a dry object made of wood, plastic or cardboard and cover burned areas with a clean cloth. Do not use towels or other fabric as they stick to the skin."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "heat_stress",
+                        "patterns": [
+                                "sweat",
+                                "sweating",
+                                "faint",
+                                "dizzy",
+                                "dizziness",
+                                "sun",
+                                "weak",
+                                "weakness",
+                                "hot"
+                        ],
+                        "responses": [
+                                "Move to shade, remove tight or heavy clothing and drink cool water. Cool yourself by spraying cool water and fanning. If possible lay down and rinse your head and neck to avoid fading."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hypothermia",
+                        "patterns": [
+                                "ice",
+                                "slow breathing",
+                                "shiver",
+                                "cold skin",
+                                "freeze",
+                                "frostbite",
+                                "snow",
+                                "hypothermia",
+                                "weak pulse",
+                                "slow pulse",
+                                "cold"
+                        ],
+                        "responses": [
+                                "Move from cold or protect neck and head from wind. Remove any wet clothing and replace with dry, warm ones. Further rewarming should be done gradually. Get warm, sweet drinks, excluding alcoholic ones."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "eye_injury",
+                        "patterns": [
+                                "blink",
+                                "can’t blink",
+                                "can not see",
+                                "can’t see",
+                                "vision",
+                                "stuck in eye",
+                                "object in eye",
+                                "eye",
+                                "eyeball"
+                        ],
+                        "responses": [
+                                "Do not rub the eye. Try to flush small objects with warm water. In case of a big object or object embedded in the eye, do not attempt to remove it. If blinking is painful, pull the lower eyelid and look upward when blinking."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "head_trauma",
+                        "patterns": [
+                                "head bleeding",
+                                "headache",
+                                "head",
+                                "seizures",
+                                "loss of balance",
+                                "lost balance",
+                                "confusion",
+                                "hit"
+                        ],
+                        "responses": [
+                                "Keep still, lay down, and do not move unless necessary. In case of bleeding, apply moderate pressure to the wound with a clean cloth. Avoid moving the neck."
+                        ],
+                        "context_set": ""
+                }
+        ]
+}
